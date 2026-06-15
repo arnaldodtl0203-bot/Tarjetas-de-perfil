@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Tarjetas de Perfil</title>
+    <link rel="icon" href="img/icono.png.jpg" type="image/png">
+    <link rel="stylesheet" href="css/estilo.css">
+
+    <script src="datos java/script.js" defer></script>
+</head>
+
+<body>
+
+    <h1>Generador de Tarjetas de Perfil</h1>
+
+    <div class="contenedor">
+
+        <!-- Formulario -->
+
+        <section class="formulario">
+
+            <h2>Datos del Perfil</h2>
+
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" placeholder="Ingrese su nombre">
+
+            <label for="cargo">Cargo:</label>
+            <input type="text" id="cargo" placeholder="Ingrese su cargo">
+
+            <label for="color">Color Favorito:</label>
+            <input type="color" id="color">
+
+            <button id="btnGenerar">
+                Generar Tarjeta
+            </button>
+
+        </section>
+
+        <!-- Vista previa -->
+
+        <section class="vista-previa">
+
+            <h2>Vista Previa</h2>
+
+            <div class="tarjeta" id="tarjeta">
+
+                <h3 id="mostrarNombre">
+                    Nombre
+                </h3>
+
+                <p id="mostrarCargo">
+                    Cargo
+                </p>
+
+            </div>
+
+        </section>
+
+    </div>
+
+    <section class="galeria-section">
+
+        <h2>Galería de Tarjetas</h2>
+
+        <div id="galeria"></div>
+
+    </section>
+
+</body>
+
+</html>
